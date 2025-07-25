@@ -11,6 +11,11 @@ public class LoginController {
     public String login() {
         return "Hello Help Desk";
     }
+
+    @GetMapping("/logoff")
+    public String logoff(){
+        return "Logoff";
+    }
 }
 
 
